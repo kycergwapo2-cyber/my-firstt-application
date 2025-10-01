@@ -21,8 +21,7 @@
       <!-- Navigation links (for desktop) -->
       <nav class="hidden md:flex space-x-6">
         <a href="/" class="{{ request()->is('/') ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-600 hover:text-indigo-600' }} pb-1">Home</a>
-        <a href="/about" class="{{ request()->is('about') ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-600 hover:text-indigo-600' }} pb-1">About</a>
-        <a href="/contact" class="{{ request()->is('contact') ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-600 hover:text-indigo-600' }} pb-1">Contact</a>
+        <a href="/jobs" class="{{ request()->is('jobs') ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-600 hover:text-indigo-600' }} pb-1">Jobs</a>
       </nav>
 
       <!-- Mobile menu toggle -->
@@ -42,8 +41,7 @@
     <div id="mobile-menu" class="md:hidden hidden bg-white shadow-sm">
       <div class="px-6 pt-4 pb-4 space-y-2">
         <a href="/" class="{{ request()->is('/') ? 'block text-indigo-600 font-semibold' : 'block text-gray-700 hover:text-indigo-600' }}">Home</a>
-        <a href="/about" class="{{ request()->is('about') ? 'block text-indigo-600 font-semibold' : 'block text-gray-700 hover:text-indigo-600' }}">About</a>
-        <a href="/contact" class="{{ request()->is('contact') ? 'block text-indigo-600 font-semibold' : 'block text-gray-700 hover:text-indigo-600' }}">Contact</a>
+        <a href="/jobs" class="{{ request()->is('jobs') ? 'block text-indigo-600 font-semibold' : 'block text-gray-700 hover:text-indigo-600' }}">Jobs</a>
       </div>
     </div>
   </header>
